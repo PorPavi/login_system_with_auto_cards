@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1000px;
+    grid-template-areas:
+    'logo login';
+    column-gap: 20px;
+    
+}
+.page-logo {
+    grid-area: logo;
+    background-color: black;
+}
+.page-login {
+    grid-area: login;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
